@@ -1,7 +1,7 @@
 //configuring the google provider
 provider "google"{
 	credentials = "${file("${path.module}/credentials/<file>.json")}"
-	project = "nomad-201510"
+	project = "<project name>"
 	region = "us-east1"
 }
 
